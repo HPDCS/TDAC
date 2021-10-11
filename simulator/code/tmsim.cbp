@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tmsim" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tmsim" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tmsim" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="application.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="application.h" />
+		<Unit filename="cc.h" />
+		<Unit filename="cc_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cc_functions.h" />
+		<Unit filename="cc_tl2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="client.h" />
+		<Unit filename="configuration.h" />
+		<Unit filename="controller.h" />
+		<Unit filename="dbsimulator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="distribution_generator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="distribution_generator.h" />
+		<Unit filename="events_wait_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="events_wait_list.h" />
+		<Unit filename="events_wait_queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="events_wait_queue.h" />
+		<Unit filename="generale.h" />
+		<Unit filename="gvc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gvc.h" />
+		<Unit filename="stat_collector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stat_collector.h" />
+		<Unit filename="stdafx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stdafx.h" />
+		<Unit filename="tl2_configuration.h" />
+		<Unit filename="tm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tm.h" />
+		<Unit filename="transaction_list_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="transaction_list_manager.h" />
+		<Unit filename="urand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="urand.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
