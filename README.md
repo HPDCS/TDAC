@@ -1,5 +1,3 @@
-# TDAC
-
 This repository contains the software pachages related to the article: "On the Effects of Transaction Data Access Patterns on Performance in Lock-based Concurrency Control". It includes: 
 
 1) The source code of the solver implementation of the analytical model presented in the article. The solver is written in Matlab. The script TDAC_scenario_1_public.m targets the cases with a single data set. It allows to reproduce the results presented in the article for Scenario 1. The script TDAC_scenario_2_public.m targets the cases with multiple data sets. It allows to reproduce the results presented in the article for Scenario 2. To reproduce the results for a given case, please, set the configuration parameters at the beginning of the script. The source code of the solver implementation has been succesfully compiled with Matlab R2021a. 
